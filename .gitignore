@@ -1,0 +1,60 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+
+# ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+Generated/
+
+# Local configuration
+local.properties
+
+# Log files
+*.log
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Gradle
+.gradle/
+
+# NDK
+obj/
+libs/
+armeabi/
+armeabi-v7a/
+x86/
+mips/
+
+# Caches
+.kotlin/
+
+# Lint & test reports
+lint/reports/
+build/reports/
+
+# KSP generated files
+build/generated/ksp/
+
+# Android Studio profiling data
+*.hprof
+*.snapshot
+
+# Ktor cache
+.ktor/
+
+# macOS
+.DS_Store

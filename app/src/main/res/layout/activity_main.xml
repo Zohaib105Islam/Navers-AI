@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:background="#FAFAFA">
+
+        <!-- TextView to display info -->
+        <TextView
+            android:id="@+id/tvUserInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User info will appear here"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:padding="16dp" />
+
+        <!-- Save User button -->
+        <Button
+            android:id="@+id/btnSaveUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save User"
+            android:textAllCaps="false"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF" />
+
+        <!-- Read User button -->
+        <Button
+            android:id="@+id/btnReadUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read User"
+            android:textAllCaps="false"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
